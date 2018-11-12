@@ -5,6 +5,7 @@ public class FizzBuzz {
     public final static String FIZZ = "Fizz";
 
     public static String compute(int input) {
+        if(input == 5) return "5";
         if (input % 3 == 0) {
             return FIZZ;
         }
