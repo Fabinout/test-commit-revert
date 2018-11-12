@@ -8,7 +8,7 @@ public class FizzBuzzShould
 {
 
     public static final String FIZZ = "Fizz";
-    private static final String BUZZ = "5";
+    private static final String BUZZ = "Buzz";
 
     @Test
     public void returnOneForOne()
