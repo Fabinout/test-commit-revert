@@ -8,6 +8,7 @@ public class FizzBuzzShould
 {
 
     public static final String FIZZ = "Fizz";
+    private static final String BUZZ = "5";
 
     @Test
     public void returnOneForOne()
@@ -35,6 +36,13 @@ public class FizzBuzzShould
     {
         String result  = FizzBuzz.compute(6);
         assertEquals(FIZZ,  result );
+    }
+
+    @Test
+    public void returnBuzzForFive()
+    {
+        String result  = FizzBuzz.compute(5);
+        assertEquals(BUZZ,  result );
     }
 
 }
