@@ -1,10 +1,11 @@
 package codingdojo;
 
-import static org.junit.Assert.assertEquals;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class FizzBuzzShould {
+import org.junit.jupiter.api.Test;
+
+public class FizzBuzzShouldTest {
 
     public static final String FIZZ = "Fizz";
     private static final String BUZZ = "Buzz";
@@ -39,5 +40,9 @@ public class FizzBuzzShould {
         assertEquals(BUZZ, result);
     }
 
-
+    @Test
+//    @DisplayName("1 + 0 = 1")
+    public void shoulReturn() {
+        assertEquals(0 + 0, 1);
+    }
 }
