@@ -16,8 +16,8 @@ public class FizzBuzzShould
     @Test
     public void returnTwoForTwo()
     {
-        int result  = FizzBuzz.compute(1);
-        assertEquals(1,  result );
+        int result  = FizzBuzz.compute(2);
+        assertEquals(2,  result );
     }
 
 }
