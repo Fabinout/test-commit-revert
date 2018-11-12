@@ -1,6 +1,7 @@
 package codingdojo;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 import org.junit.Test;
 
@@ -30,6 +31,7 @@ public class FizzBuzzShould {
     @Test
     public void returnFizzForSix() {
         String result = FizzBuzz.compute(6);
+        fail();
         assertEquals(FIZZ, result);
     }
 
