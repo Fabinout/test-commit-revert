@@ -24,7 +24,7 @@ public class FizzBuzzShould
     public void returnFizzForThree()
     {
         String result  = FizzBuzz.compute(3);
-        assertEquals("3",  result );
+        assertEquals("Fizz",  result );
     }
 
 }
