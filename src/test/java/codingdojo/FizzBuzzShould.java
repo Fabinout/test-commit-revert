@@ -7,8 +7,6 @@ import org.junit.Test;
 public class FizzBuzzShould
 {
 
-    public static final int SIX = 3;
-
     @Test
     public void returnOneForOne()
     {
@@ -33,7 +31,7 @@ public class FizzBuzzShould
     @Test
     public void returnFizzForSix()
     {
-        String result  = FizzBuzz.compute(SIX);
+        String result  = FizzBuzz.compute(FizzBuzz.SIX);
         assertEquals("Fizz",  result );
     }
 
