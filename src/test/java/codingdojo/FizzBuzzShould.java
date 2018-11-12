@@ -37,6 +37,7 @@ public class FizzBuzzShould {
     @Test
     public void returnBuzzForFive() {
         String result = FizzBuzz.compute(5);
+        fail();
         assertEquals(BUZZ, result);
     }
 
