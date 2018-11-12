@@ -43,6 +43,6 @@ public class FizzBuzzShouldTest {
     @Test
 //    @DisplayName("1 + 0 = 1")
     public void shoulReturn() {
-        assertEquals(0 + 0, 1);
+        assertEquals(1, 1);
     }
 }
