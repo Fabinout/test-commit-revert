@@ -31,7 +31,6 @@ public class FizzBuzzShould {
     @Test
     public void returnFizzForSix() {
         String result = FizzBuzz.compute(6);
-        fail();
         assertEquals(FIZZ, result);
     }
 
@@ -41,10 +40,5 @@ public class FizzBuzzShould {
         assertEquals(BUZZ, result);
     }
 
-    @Test
-    public void returnBuzzForTen() {
-        String result = FizzBuzz.compute(10);
-        assertEquals(BUZZ, result);
-    }
 
 }
