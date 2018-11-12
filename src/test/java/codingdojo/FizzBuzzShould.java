@@ -31,7 +31,7 @@ public class FizzBuzzShould
     @Test
     public void returnFizzForSix()
     {
-        String result  = FizzBuzz.compute(FizzBuzz.SIX);
+        String result  = FizzBuzz.compute(6);
         assertEquals("Fizz",  result );
     }
 
