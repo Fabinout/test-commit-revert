@@ -20,4 +20,11 @@ public class FizzBuzzShould
         assertEquals("2",  result );
     }
 
+    @Test
+    public void returnFizzForThree()
+    {
+        String result  = FizzBuzz.compute(3);
+        assertEquals("3",  result );
+    }
+
 }
