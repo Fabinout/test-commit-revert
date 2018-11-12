@@ -45,4 +45,11 @@ public class FizzBuzzShould
         assertEquals(BUZZ,  result );
     }
 
+    @Test
+    public void returnBuzzForTen()
+    {
+        String result  = FizzBuzz.compute(5);
+        assertEquals(BUZZ,  result );
+    }
+
 }
