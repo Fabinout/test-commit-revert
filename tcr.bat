@@ -1,1 +1,1 @@
-mvn test && git commit -am "working" || git reset --hard
+mvn clean test && git commit -am "working" || git reset --hard
