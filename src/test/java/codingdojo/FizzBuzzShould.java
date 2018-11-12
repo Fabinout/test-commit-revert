@@ -9,15 +9,15 @@ public class FizzBuzzShould
     @Test
     public void returnOneForOne()
     {
-        int result  = FizzBuzz.compute(1);
-        assertEquals(1,  result );
+        String result  = FizzBuzz.compute(1);
+        assertEquals("1",  result );
     }
 
     @Test
     public void returnTwoForTwo()
     {
-        int result  = FizzBuzz.compute(2);
-        assertEquals(2,  result );
+        String result  = FizzBuzz.compute(2);
+        assertEquals("2",  result );
     }
 
 }

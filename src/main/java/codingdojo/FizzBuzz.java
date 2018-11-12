@@ -2,7 +2,7 @@ package codingdojo;
 
 public class FizzBuzz {
 
-    public static int compute(int input) {
-        return input;
+    public static String compute(int input) {
+        return ""+input;
     }
 }
