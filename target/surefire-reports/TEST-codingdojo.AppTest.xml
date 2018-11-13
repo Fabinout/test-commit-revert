@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="codingdojo.AppTest" time="0.096" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="codingdojo.AppTest" time="0.038" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,20 +7,20 @@
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\Fabien.lamarque\projects\tcr\target\test-classes;C:\Users\Fabien.lamarque\projects\tcr\target\classes;C:\Users\Fabien.lamarque\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Fabien.lamarque\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\Fabien.lamarque\projects\tcr\target\test-classes;C:\Users\Fabien.lamarque\projects\tcr\target\classes;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.2.0\junit-jupiter-params-5.2.0.jar;"/>
     <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.timezone" value="Europe/Paris"/>
     <property name="java.vm.specification.version" value="10"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-10.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\FABIEN~1.LAM\AppData\Local\Temp\surefire726690112823697976\surefirebooter7783040954756641232.jar C:\Users\Fabien.lamarque\AppData\Local\Temp\surefire726690112823697976 2018-11-12T13-06-25_835-jvmRun1 surefire13924682959647954847tmp surefire_02319873103258368183tmp"/>
+    <property name="sun.java.command" value="C:\Users\FABIEN~1.LAM\AppData\Local\Temp\surefire4258455617077628387\surefirebooter5036736407105886480.jar C:\Users\Fabien.lamarque\AppData\Local\Temp\surefire4258455617077628387 2018-11-13T12-25-21_740-jvmRun1 surefire12603418461931730381tmp surefire_012915910231165191086tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\Fabien.lamarque\projects\tcr\target\test-classes;C:\Users\Fabien.lamarque\projects\tcr\target\classes;C:\Users\Fabien.lamarque\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Fabien.lamarque\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\Fabien.lamarque\projects\tcr\target\test-classes;C:\Users\Fabien.lamarque\projects\tcr\target\classes;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.2.0\junit-jupiter-engine-5.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\platform\junit-platform-engine\1.2.0\junit-platform-engine-1.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\platform\junit-platform-commons\1.2.0\junit-platform-commons-1.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\opentest4j\opentest4j\1.1.0\opentest4j-1.1.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.2.0\junit-jupiter-api-5.2.0.jar;C:\Users\Fabien.lamarque\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.2.0\junit-jupiter-params-5.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Fabien.lamarque"/>
     <property name="user.language" value="fr"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\FABIEN~1.LAM\AppData\Local\Temp\surefire726690112823697976\surefirebooter7783040954756641232.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\FABIEN~1.LAM\AppData\Local\Temp\surefire4258455617077628387\surefirebooter5036736407105886480.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="10.0.1+10"/>
@@ -61,5 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="54.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="codingdojo.AppTest" time="0.004"/>
+  <testcase name="shouldAnswerWithTrue" classname="codingdojo.AppTest" time="0.001"/>
 </testsuite>
